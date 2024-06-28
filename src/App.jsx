@@ -2,7 +2,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Recipes from "./pages/Recipes";
 import Welcome from "./pages/Welcome";
 import Categories from "./pages/Categories";
-import "./App.css";
+import "./App.css"
 
 const router = createBrowserRouter([
   { path: '/', element: <Welcome/>},
